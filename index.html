@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atRound</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+    <!-- nav -->
+    <div class="navbar ">
+      <div class="logo">
+        <svg
+         
+          viewBox="0 0 83 83"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.09481 67.4284L24.7043 63.2458L58.639 29.3111C58.639 29.3111 58.6541 40.693 58.6575 47.986C58.6605 54.4816 58.6575 64.6191 58.6575 64.6191C58.8611 66.2125 60.2222 67.444 61.8709 67.444C62.79 67.444 63.6197 67.0613 64.2095 66.4468L66.5063 64.1492L82.4632 48.1924C79.2632 67.9301 62.1415 83 41.5 83C28.3902 83 16.7001 76.9211 9.09481 67.4284ZM9.07184 67.3997C3.39465 60.3007 0 51.2968 0 41.5C0 18.5802 18.5802 0 41.5 0C64.4198 0 83 18.5802 83 41.5C83 43.7256 82.8248 45.9102 82.4875 48.0409L66.8868 52.221L66.3297 52.7828L66.3282 44.7373L66.3289 25.9687C66.3301 22.5673 66.3307 20.8524 66.3307 20.824C66.3307 18.3813 64.3505 16.4012 61.9079 16.4012C60.6061 16.4012 59.4357 16.9636 58.6246 17.8469L9.07184 67.3997Z"
+            fill="#C32500"
+          />
+        </svg>
+      </div>
+
+      <div class="menu-btn">
+        <div class="menu-icon">
+        
+<svg width="50" height="47" viewBox="0 0 50 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="17" cy="15.5" r="5.5" fill="var(--text-color)"/>
+  <circle cx="33" cy="15.5" r="5.5" fill="var(--text-color)"/>
+  <circle cx="17" cy="31.5" r="5.5" fill="var(--text-color)"/>
+  <circle cx="33" cy="31.5" r="5.5" fill="var(--text-color)"/></svg>
+  
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="post-message-btn btn">Post a Message</button>
+        <button class="check-messages-btn btn btn-fill">Check Messages</button>
+        <button id="darkModeToggle" class="dark-mode-btn">
+          <div id="toggleIcon">
+            <svg height="24" viewBox="0 -960 960 960" width="24">
+              <path
+                d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+<!-- Hero Section -->
+<div class="hero-container txt-scroll">
+  <div class="text-container">
+    <span class="main-heading">Connect With People Nearby</span>
+    <span class="sub-heading">Location-based messaging</span>
+  </div>
+  <button class="btn btn-fill">Sign In ></button>
+</div>
+
+<div class="message-section">
+  <div class="vertical-line txt-scroll">
+    <div class="round-dot txt-scroll"></div>
+    <span class="round-dot txt-scroll"></span>
+    <span class="round-dot txt-scroll"></span>
+  </div>
+  <div class="info-container  ">
+    <div class="info-box info-box-1">
+      <span class="info-heading  txt-scroll">Post a message for people nearby</span>
+      <span class="info-text  txt-scroll">Whenever you need to reach people who are physically close, post a message near your location, and those nearby will be able to see it.</span>
+    </div>
+    <div class="info-box info-box-2">
+      <span class="info-heading  txt-scroll">For up to 3 days</span>
+      <span class="info-text  txt-scroll">Your post disappears automatically. You can set the time from 3 minutes to 3 days after publishing.</span>
+    </div>
+    <div class="info-box info-box-3">
+      <span class="info-heading  txt-scroll">Reaching up to 90 km</span>
+      <span class="info-text txt-scroll">Your message can be viewed by anyone within a 90-kilometer radius.</span>
+    </div>
+  </div>
+</div>
+
+<div class="message-section-mobile">
+  
+  <div class="info-container-mobile">
+    <div class="info-box-mobile info-box-1-mobile txt-scroll">
+      <span class="info-heading-mobile txt-scroll">Post a message for people nearby</span>
+      <span class="info-text-mobile txt-scroll">Whenever you need to reach people who are physically close, post a message near your location, and those nearby will be able to see it.</span>
+    </div>
+    <div class="info-box-mobile info-box-2-mobile txt-scroll">
+      <span class="info-heading-mobile txt-scroll">For up to 3 days</span>
+      <span class="info-text-mobile txt-scroll">Your post disappears automatically. You can set the time from 3 minutes to 3 days after publishing.</span>
+    </div>
+    <div class="info-box-mobile info-box-3-mobil txt-scrolle">
+      <span class="info-heading-mobile txt-scroll">Reaching up to 90 km</span>
+      <span class="info-text-mobile txt-scroll">Your message can be viewed by anyone within a 90-kilometer radius.</span>
+    </div>
+  </div>
+</div>
+<div class="btn-container txt-scroll">
+  <button class="btn btn-fill">Tell me more</button>
+</div>
+
+<div class="steps txt-scroll">
+
+ <h2 class="steps-heading txt-scroll btn-container">Posting Message Is Very Straight Forward!!!!</h2>
+
+<div class="section2 bg-2 ">
+ <div class="step-line txt-scroll">
+  
+
+  <svg width="558" height="547" viewBox="0 0 558 547" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M280.234 140.626C642.644 44.6027 610.744 330.474 404.286 280.63M280.234 400.11C642.644 304.087 610.744 589.958 404.286 540.114M281.205 140.417C-75.5348 250.01 -59.4252 -36.7677 149.566 5.23727M281.205 399.901C-75.5348 509.494 -59.4252 222.716 149.566 264.721" stroke="#C32500" stroke-dasharray="11 11"/>
+    </svg>
+    
+  
+ </div>
+
+  <div class="cards-container txt-scroll">
+    <div class="cards txt-scroll txt-scroll">
+      
+      <div class="texts">
+        <h2 class="h2">Choose a location</h2>
+        <h2 class="small">Locate yourself or pick a place on the map.</h2>
+      </div>
+      <div class="img">
+        <svg
+          width="59"
+          height="60"
+          viewBox="0 0 59 60"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <mask
+            id="mask0_7_165"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="59"
+            height="60"
+          >
+            <rect
+              y="0.5"
+              width="59"
+              height="59"
+              fill="var(--primary-color)"
+            />
+          </mask>
+          <g mask="url(#mask0_7_165)">
+            <path
+              d="M29.4999 54.5833C25.1569 54.5833 21.6128 53.8971 18.8676 52.5245C16.1225 51.1519 14.7499 49.3799 14.7499 47.2083C14.7499 45.7743 15.344 44.5247 16.5322 43.4594C17.7204 42.3941 19.3593 41.5542 21.4489 40.9396L22.8624 45.6104C22.1659 45.8153 21.5308 46.0714 20.9572 46.3787C20.3836 46.6859 19.9944 46.9625 19.7895 47.2083C20.3222 47.8639 21.5513 48.4375 23.477 48.9292C25.4027 49.4208 27.4104 49.6667 29.4999 49.6667C31.5895 49.6667 33.6074 49.4208 35.5536 48.9292C37.4998 48.4375 38.7392 47.8639 39.2718 47.2083C39.067 46.9625 38.6777 46.6859 38.1041 46.3787C37.5305 46.0714 36.8954 45.8153 36.1989 45.6104L37.6125 40.9396C39.702 41.5542 41.3307 42.3941 42.4984 43.4594C43.6661 44.5247 44.25 45.7743 44.25 47.2083C44.25 49.3799 42.8774 51.1519 40.1322 52.5245C37.3871 53.8971 33.843 54.5833 29.4999 54.5833ZM29.4999 47.2083C29.0493 47.2083 28.6395 47.0752 28.2708 46.8089C27.902 46.5425 27.6357 46.184 27.4718 45.7333C26.5295 42.8243 25.3413 40.3865 23.9072 38.4198C22.4732 36.4531 21.0802 34.5684 19.7281 32.7656C18.417 30.9628 17.28 29.0986 16.3171 27.1729C15.3543 25.2472 14.8729 22.8708 14.8729 20.0437C14.8729 15.9465 16.2864 12.4844 19.1135 9.65728C21.9406 6.8302 25.4027 5.41665 29.4999 5.41665C33.5972 5.41665 37.0593 6.8302 39.8864 9.65728C42.7135 12.4844 44.127 15.9465 44.127 20.0437C44.127 22.8708 43.6559 25.2472 42.7135 27.1729C41.7711 29.0986 40.6239 30.9628 39.2718 32.7656C37.9607 34.5684 36.5779 36.4531 35.1234 38.4198C33.6689 40.3865 32.4704 42.8243 31.5281 45.7333C31.3642 46.184 31.0979 46.5425 30.7291 46.8089C30.3604 47.0752 29.9506 47.2083 29.4999 47.2083ZM29.4999 25.2677C30.934 25.2677 32.1631 24.7556 33.1874 23.7312C34.2118 22.7069 34.7239 21.4778 34.7239 20.0437C34.7239 18.6097 34.2118 17.3805 33.1874 16.3562C32.1631 15.3319 30.934 14.8198 29.4999 14.8198C28.0659 14.8198 26.8368 15.3319 25.8124 16.3562C24.7881 17.3805 24.276 18.6097 24.276 20.0437C24.276 21.4778 24.7881 22.7069 25.8124 23.7312C26.8368 24.7556 28.0659 25.2677 29.4999 25.2677Z"
+              fill="var(--text-color)"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="cards txt-scroll high txt-scroll ">
+      
+      <div class="texts ">
+        
+        <h2 class="h2">Write a message</h2>
+        <h2 class="small">Add images, emojis, and #hashtags.</h2>
+      </div><div class="img">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="57"
+          height="56"
+          viewBox="0 0 57 56"
+          fill="none"
+        >
+          <mask
+            id="mask0_7_255"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="57"
+            height="56"
+          >
+            <rect
+              x="0.177429"
+              y="0.622711"
+              width="56.5138"
+              height="55.3773"
+              fill="#D9D9D9"
+            />
+          </mask>
+          <g mask="url(#mask0_7_255)">
+            <path
+              d="M44.9175 14.467C42.9552 14.467 41.2873 13.794 39.9137 12.4481C38.5401 11.1021 37.8533 9.4677 37.8533 7.54487C37.8533 5.62205 38.5401 3.98765 39.9137 2.64168C41.2873 1.2957 42.9552 0.622711 44.9175 0.622711C46.8798 0.622711 48.5477 1.2957 49.9213 2.64168C51.2949 3.98765 51.9817 5.62205 51.9817 7.54487C51.9817 9.4677 51.2949 11.1021 49.9213 12.4481C48.5477 13.794 46.8798 14.467 44.9175 14.467ZM4.8869 51.3852V9.85226C4.8869 8.5832 5.34804 7.4968 6.27031 6.59308C7.19259 5.68935 8.30128 5.23749 9.59639 5.23749H33.3793C33.2223 6.00662 33.1438 6.77574 33.1438 7.54487C33.1438 8.314 33.2223 9.08313 33.3793 9.85226C33.5755 10.7368 33.8502 11.5636 34.2034 12.3327C34.5567 13.1018 34.9884 13.8133 35.4986 14.467H14.3059V19.0818H44.9175C46.1734 19.0818 47.4096 18.8895 48.6262 18.505C49.8429 18.1204 50.9614 17.5436 51.9817 16.7744V37.5409C51.9817 38.81 51.5206 39.8964 50.5983 40.8001C49.6761 41.7038 48.5674 42.1557 47.2723 42.1557H14.3059L4.8869 51.3852ZM14.3059 26.004H42.5628V21.3892H14.3059V26.004ZM14.3059 32.9261H33.1438V28.3114H14.3059V32.9261Z"
+              fill="var(--text-color)"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="cards txt-scroll txt-scroll">
+     
+      <div class="texts">
+        <h2 class="h2">Set the disappearing time</h2>
+        <h2 class="small">
+          Choose from 3 minutes to 3 days after publishing.
+        </h2>
+      </div> <div class="img">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="58"
+          height="57"
+          viewBox="0 0 58 57"
+          fill="none"
+        >
+          <mask
+            id="mask0_7_291"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="-1"
+            width="58"
+            height="58"
+          >
+            <rect
+              x="0.774414"
+              y="-0.000396729"
+              width="57.2255"
+              height="56.0747"
+              fill="#D9D9D9"
+            />
+          </mask>
+          <g mask="url(#mask0_7_291)">
+            <path
+              d="M37.2557 39.0183L40.5939 35.7472L31.7716 27.1024V16.3547H27.0028V28.9715L37.2557 39.0183ZM29.3872 51.4014C26.0888 51.4014 22.9891 50.7881 20.088 49.5615C17.187 48.3348 14.6635 46.6701 12.5176 44.5673C10.3716 42.4645 8.67274 39.9918 7.42093 37.1491C6.16912 34.3064 5.54321 31.269 5.54321 28.037C5.54321 24.8049 6.16912 21.7675 7.42093 18.9248C8.67274 16.0821 10.3716 13.6094 12.5176 11.5066C14.6635 9.4038 17.187 7.73908 20.088 6.51245C22.9891 5.28581 26.0888 4.6725 29.3872 4.6725C32.6856 4.6725 35.7853 5.28581 38.6863 6.51245C41.5874 7.73908 44.1108 9.4038 46.2568 11.5066C48.4028 13.6094 50.1016 16.0821 51.3535 18.9248C52.6053 21.7675 53.2312 24.8049 53.2312 28.037C53.2312 31.269 52.6053 34.3064 51.3535 37.1491C50.1016 39.9918 48.4028 42.4645 46.2568 44.5673C44.1108 46.6701 41.5874 48.3348 38.6863 49.5615C35.7853 50.7881 32.6856 51.4014 29.3872 51.4014Z"
+              fill="var(--text-color)"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+   
+  </div>
+
+
+
+</div>
+</div>
+
+<div class="btn-container txt-scroll">
+   <button class="btn btn-fill">Post a message</button>
+</div>
+ 
+</div>
+
+
+
+<div class="card txt-scroll">
+  <img class="img txt-scroll"  src="Feature.png" alt="Card Image">
+  <div class="card-content txt-scroll">
+    <h2 class="txt-scroll">Main Feature</h2>
+    <p class="txt-scroll">
+      Empower your expressions with hashtagged text, images, animated GIFs, and emojis. Tailor the experience with adjustable disappear times, ranging from 3 minutes to 3 days. Control your privacy by choosing to share contact information. Extend your reach with post visibility up to 90 km or 300 posts. All of this, and more, is yours to explore and enjoy—for free!
+    </p>
+    <ul class="features-list txt-scroll">
+      <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_6_8" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_6_8)">
+<path d="M10 16.4L6 12.4L7.4 11L10 13.6L16.6 7L18 8.4L10 16.4Z" fill="#C32500"/>
+</g>
+</svg>
+ Hashtagged text, images, GIFs, emojis</li>
+      <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_6_8" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_6_8)">
+<path d="M10 16.4L6 12.4L7.4 11L10 13.6L16.6 7L18 8.4L10 16.4Z" fill="#C32500"/>
+</g>
+</svg>
+  Adjustable disappear time</li>
+      <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_6_8" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_6_8)">
+<path d="M10 16.4L6 12.4L7.4 11L10 13.6L16.6 7L18 8.4L10 16.4Z" fill="#C32500"/>
+</g>
+</svg>
+  Share contact information</li>
+      <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_6_8" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_6_8)">
+<path d="M10 16.4L6 12.4L7.4 11L10 13.6L16.6 7L18 8.4L10 16.4Z" fill="#C32500"/>
+</g>
+</svg>
+  Post visibility</li>
+      <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_6_8" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_6_8)">
+<path d="M10 16.4L6 12.4L7.4 11L10 13.6L16.6 7L18 8.4L10 16.4Z" fill="#C32500"/>
+</g>
+</svg>
+  Free to use</li>
+    </ul>
+  </div>
+</div>
+
+
+ <div class="alertinfo-h txt-scroll">
+    Reality check
+  </div>
+<div class="alertinfo txt-scroll">
+ 
+  <div class="alertInfoCard ">
+    <div class="alertimg">
+      
+
+      <svg width="77" height="77" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <mask id="mask0_25_71" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="77" height="77">
+        <rect width="77" height="77" fill="#D9D9D9"/>
+        </mask>
+        <g mask="url(#mask0_25_71)">
+        <path d="M12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22ZM11 19.95V18C10.45 18 9.97917 17.8042 9.5875 17.4125C9.19583 17.0208 9 16.55 9 16V15L4.2 10.2C4.15 10.5 4.10417 10.8 4.0625 11.1C4.02083 11.4 4 11.7 4 12C4 14.0167 4.6625 15.7833 5.9875 17.3C7.3125 18.8167 8.98333 19.7 11 19.95ZM17.9 17.4C18.2333 17.0333 18.5333 16.6375 18.8 16.2125C19.0667 15.7875 19.2875 15.3458 19.4625 14.8875C19.6375 14.4292 19.7708 13.9583 19.8625 13.475C19.9542 12.9917 20 12.5 20 12C20 10.3667 19.5458 8.875 18.6375 7.525C17.7292 6.175 16.5167 5.2 15 4.6V5C15 5.55 14.8042 6.02083 14.4125 6.4125C14.0208 6.80417 13.55 7 13 7H11V9C11 9.28333 10.9042 9.52083 10.7125 9.7125C10.5208 9.90417 10.2833 10 10 10H8V12H14C14.2833 12 14.5208 12.0958 14.7125 12.2875C14.9042 12.4792 15 12.7167 15 13V16H16C16.4333 16 16.825 16.1292 17.175 16.3875C17.525 16.6458 17.7667 16.9833 17.9 17.4Z" fill="var(--text-color)"/>
+        </g>
+        <path d="M5 5L19.6425 18.8718" stroke="#FF4D00" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        
+  
+    </div>
+    <p>Your message is public and can be saved, photographed, printed, etc. Even after it disappears from atRound, it might still be accessible elsewhere.</p>
+</div>
+
+<div class="alertInfoCard">  <div class="alertimg">
+      
+  <svg width="77" height="77" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="mask0_25_24" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="77" height="77">
+    <rect width="77" height="77" fill="#D9D9D9"/>
+    </mask>
+    <g mask="url(#mask0_25_24)">
+    <path d="M7.975 17L12 15.175L16.025 17L16.4 16.625L12 6L7.6 16.625L7.975 17ZM12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22Z" fill="var(--text-color)"/>
+    </g>
+    <path d="M5 5L19.6425 18.8718" stroke="#FF4D00" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    
+    
+      </div>
+    <p>Sharing your exact location online can be risky. Consider using nearby landmarks, such as crossroads or cafes, as reference points instead.</p>
+</div>
+
+<div class="alertInfoCard">  <div class="alertimg">
+      
+  
+<svg width="77" height="77" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="mask0_25_16" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="77" height="77">
+  <rect width="77" height="77" rx="5" fill="#D9D9D9"/>
+  </mask>
+  <g mask="url(#mask0_25_16)">
+  <path d="M5.5 20C4.67157 20 4 19.3284 4 18.5V18.5C4 17.6716 4.67157 17 5.5 17H6.5C7.32843 17 8 17.6716 8 18.5V18.5C8 19.3284 7.32843 20 6.5 20H5.5ZM6 16C4.89543 16 4 15.1046 4 14V14C4 12.8954 4.89543 12 6 12V12C7.10457 12 8 12.8954 8 14V14C8 15.1046 7.10457 16 6 16V16ZM6 11C4.89543 11 4 10.1046 4 9V6C4 4.89543 4.89543 4 6 4V4C7.10457 4 8 4.89543 8 6V9C8 10.1046 7.10457 11 6 11V11ZM12 20C10.8954 20 10 19.1046 10 18V15C10 13.8954 10.8954 13 12 13V13C13.1046 13 14 13.8954 14 15V18C14 19.1046 13.1046 20 12 20V20ZM12 12C10.8954 12 10 11.1046 10 10V10C10 8.89543 10.8954 8 12 8V8C13.1046 8 14 8.89543 14 10V10C14 11.1046 13.1046 12 12 12V12ZM11.5 7C10.6716 7 10 6.32843 10 5.5V5.5C10 4.67157 10.6716 4 11.5 4H12.5C13.3284 4 14 4.67157 14 5.5V5.5C14 6.32843 13.3284 7 12.5 7H11.5ZM17 20C16.4477 20 16 19.5523 16 19V19C16 18.4477 16.4477 18 17 18H19C19.5523 18 20 18.4477 20 19V19C20 19.5523 19.5523 20 19 20H17ZM18 17C16.8954 17 16 16.1046 16 15V15C16 13.8954 16.8954 13 18 13V13C19.1046 13 20 13.8954 20 15V15C20 16.1046 19.1046 17 18 17V17ZM18 12C16.8954 12 16 11.1046 16 10V6C16 4.89543 16.8954 4 18 4V4C19.1046 4 20 4.89543 20 6V10C20 11.1046 19.1046 12 18 12V12Z" fill="var(--text-color)"/>
+  </g>
+  <path d="M5 5L19.6425 18.8718" stroke="#FF4D00" stroke-width="3" stroke-linecap="round"/>
+  </svg>
+  
+    
+      </div>
+    <p>Never share sensitive information like passwords, bank card details, or anything else you wouldn't want others to know.</p>
+</div>
+</div>
+
+<footer class="footer txt-scroll">
+  <div class="logo">
+    <svg
+     
+      viewBox="0 0 83 83"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M9.09481 67.4284L24.7043 63.2458L58.639 29.3111C58.639 29.3111 58.6541 40.693 58.6575 47.986C58.6605 54.4816 58.6575 64.6191 58.6575 64.6191C58.8611 66.2125 60.2222 67.444 61.8709 67.444C62.79 67.444 63.6197 67.0613 64.2095 66.4468L66.5063 64.1492L82.4632 48.1924C79.2632 67.9301 62.1415 83 41.5 83C28.3902 83 16.7001 76.9211 9.09481 67.4284ZM9.07184 67.3997C3.39465 60.3007 0 51.2968 0 41.5C0 18.5802 18.5802 0 41.5 0C64.4198 0 83 18.5802 83 41.5C83 43.7256 82.8248 45.9102 82.4875 48.0409L66.8868 52.221L66.3297 52.7828L66.3282 44.7373L66.3289 25.9687C66.3301 22.5673 66.3307 20.8524 66.3307 20.824C66.3307 18.3813 64.3505 16.4012 61.9079 16.4012C60.6061 16.4012 59.4357 16.9636 58.6246 17.8469L9.07184 67.3997Z"
+        fill="#fff"
+      />
+    </svg>
+  </div>
+  
+  <div class="footer-content">
+    
+      <div class="footer-section">
+          <h3 class="footer-heading">Rules:</h3>
+          <p>By using the service, you agree with our  <a href="#">Terms and Conditions</a> 
+            and with all the policies.</p>
+      </div>
+      <div class="footer-section">
+          <h3 class="footer-heading">Read Them All:</h3>
+          <p><a href="#">Terms and Conditions</a> </p>
+          <p><a href="#">Privacy Policy</a> </p>  
+          <p> <a href="#">Cookie Policy</a> </p> </p>
+      </div>
+      <div class="footer-section">
+          <h3 class="footer-heading">Connect with atRound:</h3>
+          <ul>
+              <li><a href="https://www.reddit.com/r/atroundcom/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3979 2.8198C15.7477 2.32254 16.3114 2 16.9587 2C18.0667 2 18.9245 2.94703 18.9245 4.05204C18.9245 5.15704 18.0667 6.10407 16.9587 6.10407C16.005 6.10407 15.2405 5.40694 15.0419 4.5155L12.7431 4.00287L11.993 7.7198C13.8852 7.88675 15.6172 8.50409 16.9616 9.42748C17.3735 9.11795 17.8785 8.94079 18.4316 8.94079C19.8744 8.94079 21 10.1711 21 11.6302C21 12.5842 20.519 13.4283 19.8281 13.9133C19.8394 14.0462 19.8451 14.1813 19.8451 14.3216C19.8451 16.2084 18.8081 17.8746 17.2073 19.052C15.6066 20.2294 13.4171 20.9418 11.0167 20.9418C8.61635 20.9418 6.4269 20.2294 4.82615 19.052C3.22537 17.8746 2.18838 16.2084 2.18838 14.3216C2.18838 14.183 2.1939 14.0436 2.20513 13.9063C1.47268 13.425 1 12.5884 1 11.6302C1 10.1711 2.12564 8.94079 3.56842 8.94079C4.1118 8.94079 4.62012 9.13058 5.02961 9.42945C6.43801 8.44359 8.26281 7.82808 10.2712 7.70182L11.2578 2.76487L11.2656 2.74032C11.3145 2.58507 11.4123 2.37287 11.6319 2.2335C11.8236 2.11183 12.0461 2.07677 12.2543 2.11347L12.2653 2.1154L15.3979 2.8198ZM16.9587 2.95238C16.5757 2.95238 16.2362 3.18171 16.0721 3.55369L15.9352 3.86401L15.9448 4.10372C15.969 4.70582 16.4353 5.15169 16.9587 5.15169C17.4909 5.15169 17.9721 4.68223 17.9721 4.05204C17.9721 3.42184 17.4909 2.95238 16.9587 2.95238ZM7.70265 12.1064C7.17037 12.1064 6.68918 12.5759 6.68918 13.2061C6.68918 13.8363 7.17037 14.3057 7.70265 14.3057C8.23494 14.3057 8.71613 13.8363 8.71613 13.2061C8.71613 12.5759 8.23493 12.1064 7.70265 12.1064ZM14.2639 12.1064C13.7316 12.1064 13.2504 12.5759 13.2504 13.2061C13.2504 13.8363 13.7316 14.3057 14.2639 14.3057C14.7962 14.3057 15.2773 13.8363 15.2773 13.2061C15.2773 12.5759 14.7962 12.1064 14.2639 12.1064ZM7.12228 16.4556C7.4608 16.0975 8.02819 16.0975 8.36672 16.4556C8.59633 16.6985 8.99891 16.8987 9.50995 17.0354C10.0101 17.1692 10.5581 17.2273 11.0167 17.2273C11.4751 17.2273 12.0188 17.1692 12.5168 17.0355C13.0232 16.8995 13.4292 16.6995 13.6695 16.4528C14.0083 16.0975 14.5736 16.0984 14.9112 16.4556L14.9395 16.4856L14.9623 16.5199C15.1804 16.8495 15.2054 17.3475 14.8777 17.6941C14.2723 18.3346 13.4233 18.6508 12.7001 18.8123C11.9679 18.9757 11.3013 18.9941 11 18.9941C10.6957 18.9941 10.0256 18.9709 9.29249 18.8054C8.56954 18.6422 7.71979 18.3262 7.12228 17.6941C6.79811 17.3512 6.79811 16.7985 7.12228 16.4556Z" fill="white"/>
+              </svg></a></li>
+              <li><a href="https://www.instagram.com/atroundcom/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 15.5C10.067 15.5 8.5 14 8.5 12C8.5 10 10 8.5 12 8.5C14 8.5 15.5 10 15.5 12C15.5 14 13.933 15.5 12 15.5Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 1.5C3.96243 1.5 1.5 3.96243 1.5 7V17C1.5 20.0376 3.96243 22.5 7 22.5H17C20.0376 22.5 22.5 20.0376 22.5 17V7C22.5 3.96243 20.0376 1.5 17 1.5H7ZM18 4.5C17.1716 4.5 16.5 5.17157 16.5 6C16.5 6.82843 17.1716 7.5 18 7.5C18.8284 7.5 19.5 6.82843 19.5 6C19.5 5.17157 18.8284 4.5 18 4.5ZM6.5 12C6.5 8.96243 8.96243 6.5 12 6.5C15.0376 6.5 17.5 8.96243 17.5 12C17.5 15.0376 15.0376 17.5 12 17.5C8.96243 17.5 6.5 15.0376 6.5 12Z" fill="white"/>
+              </svg></a></li>
+              <li><a href="https://www.facebook.com/atroundcom/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25C6.77614 2.25 2.5 6.52614 2.5 11.75C2.5 16.2972 5.65354 20.0795 9.875 21.0212V15.125H8.375C7.82271 15.125 7.375 14.6773 7.375 14.125V12.25C7.375 11.6977 7.82271 11.25 8.375 11.25H9.875V9.5C9.875 8.1492 10.2824 7.04179 11.0527 6.27145C11.8224 5.50178 12.898 5.125 14.125 5.125C14.8812 5.125 15.6282 5.23121 16.0667 5.30695C16.5489 5.39025 16.875 5.81032 16.875 6.27609V7.875C16.875 8.42728 16.4273 8.875 15.875 8.875H15.125C14.6033 8.875 14.3491 9.02778 14.2175 9.17593C14.0757 9.33545 14 9.57491 14 9.875V11.25H15.6555C16.2763 11.25 16.7471 11.8097 16.6407 12.4213L16.3147 14.2963C16.2314 14.7753 15.8156 15.125 15.3295 15.125H13.875V21.1521C18.3296 20.2125 21.5 16.3101 21.5 11.75C21.5 6.52614 17.2239 2.25 12 2.25Z" fill="white"/>
+                <path d="M2.5 11.75C2.5 6.52614 6.77614 2.25 12 2.25C17.2239 2.25 21.5 6.52614 21.5 11.75C21.5 16.3101 18.3296 20.2125 13.875 21.1521V15.125H15.3295C15.8156 15.125 16.2314 14.7753 16.3147 14.2963L16.6407 12.4213C16.7471 11.8097 16.2763 11.25 15.6555 11.25H14V9.875C14 9.57491 14.0757 9.33545 14.2175 9.17593C14.3491 9.02778 14.6033 8.875 15.125 8.875H15.875C16.4273 8.875 16.875 8.42728 16.875 7.875V6.27609C16.875 5.81032 16.5489 5.39025 16.0667 5.30695C15.6282 5.23121 14.8812 5.125 14.125 5.125C12.898 5.125 11.8224 5.50178 11.0527 6.27145C10.2824 7.04179 9.875 8.1492 9.875 9.5V11.25H8.375C7.82271 11.25 7.375 11.6977 7.375 12.25V14.125C7.375 14.6773 7.82271 15.125 8.375 15.125H9.875V21.0212C5.65354 20.0795 2.5 16.2972 2.5 11.75Z" fill="white"/>
+              </svg></a></li>
+              <li><a href="https://twitter.com/atroundcom"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M17.8978 2.17992C17.9978 2.06558 18.1423 2 18.2942 2H20.1252C20.5777 2 20.8196 2.533 20.5216 2.87358L14.51 9.74447C14.3455 9.93239 14.3357 10.2099 14.4863 10.4091L21.8924 20.2002C22.1548 20.5472 21.9074 21.0447 21.4723 21.0447H16.2898C16.1258 21.0447 15.9711 20.9683 15.8715 20.838L11.3282 14.898C11.1261 14.6337 10.7326 14.6207 10.5135 14.8711L5.26795 20.8649C5.16793 20.9791 5.02345 21.0447 4.87158 21.0447H3.03857C2.58603 21.0447 2.34416 20.5117 2.64215 20.1711L9.14354 12.7404C9.30865 12.5517 9.31785 12.2728 9.16553 12.0736L2.10929 2.84671C1.84424 2.50012 2.09137 2 2.5277 2H7.8664C8.03144 2 8.18694 2.07735 8.2865 2.20898L12.341 7.56935C12.5424 7.83567 12.9377 7.84974 13.1575 7.59841L17.8978 2.17992ZM16.7631 18.9042C16.8628 19.0345 17.0175 19.1109 17.1815 19.1109H17.6527C18.0877 19.1109 18.3352 18.6134 18.0728 18.2665L7.31375 4.04119C7.21419 3.90956 7.05869 3.8322 6.89364 3.8322H6.30065C5.8643 3.8322 5.61717 4.33236 5.88227 4.67895L16.7631 18.9042Z" fill="white"/>
+              </svg></a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h3 class="footer-heading">Company Info:</h3>
+          <p>atRound Ltd. Since 2020</p>
+          <p class="footer-quote">Everything around you is within you.</p>
+      </div>
+  </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
